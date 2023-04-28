@@ -1,0 +1,70 @@
+html {
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+      );
+      color: #ffffff;
+}
+
+.container {
+    text-align : center;
+    margin : 32px auto;
+    width: 420px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0px 0px;
+}
+
+.name{
+    margin: 15px 0px;
+    font-size: 30px;
+
+}
+.basic-text {
+    margin: 13px 0px;
+    font-size: 17px;
+}
+.item {
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 16px;
+    margin : 16px;
+    border-radius: 9999px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.item:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+footer {
+    margin : 32px auto;
+    width: 420px;
+    text-align: center;
+
+}
+.footer-a {
+    text-decoration: none;
+    color:rgb(255, 243, 243);
+    font-size : 13px;
+
+}
+
+.footer-a:hover {
+    color:white;
+    
+}
